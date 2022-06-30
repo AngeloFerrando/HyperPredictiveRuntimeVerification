@@ -86,13 +86,14 @@ def main(argv):
     for i in range(0, n):
         transitions = set()
         for place in places:
-            found = False
+            found = None
             for arc in place.in_arcs:
-                if str(arc).strip().replace(',', '').split('->')[0] == '(t)c':
-                    found = True
+                aux = str(arc).strip().replace(',', '').split('->')[0]
+                if aux.startswith('(t)access_shared_data('):
+                    found = aux[22:aux.find(')', 3)]
                     break
             if found:
-                new_place = PetriNet.Place('critical' + place.name + 'critical' + str(i))
+                new_place = PetriNet.Place('critical' + found + 'critical' + place.name + str(i))
             else:
                 new_place = PetriNet.Place(place.name + str(i))
             new_net.places.add(new_place)
@@ -211,6 +212,7 @@ def main(argv):
     ts = reachability_graph.construct_reachability_graph(new_net, initial_marking)
     for state in ts.states:
         critical_sections = set()
+        print(state)
         i = 0
         while True:
             j = state.name.find('critical', i)

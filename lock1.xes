@@ -47,9 +47,9 @@
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
-      <string key="concept:name" value="c"/>
+      <string key="concept:name" value="access_shared_data(c)"/>
       <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
-      <string key="Activity" value="c"/>
+      <string key="Activity" value="access_shared_data(c)"/>
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
@@ -75,9 +75,9 @@
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
-      <string key="concept:name" value="c"/>
+      <string key="concept:name" value="access_shared_data(c)"/>
       <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
-      <string key="Activity" value="c"/>
+      <string key="Activity" value="access_shared_data(c)"/>
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
