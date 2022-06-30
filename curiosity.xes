@@ -1,0 +1,2734 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <string key="creator" value="Angelo Ferrando"/>
+  <extension name="Concept" prefix="concept" uri="http://code.deckfour.org/xes/concept.xesext"/>
+  <extension name="Time" prefix="time" uri="http://code.deckfour.org/xes/time.xesext"/>
+  <extension name="Organizational" prefix="org" uri="http://code.deckfour.org/xes/org.xesext"/>
+  <global scope="trace">
+    <string key="concept:name" value="name"/>
+  </global>
+  <global scope="event">
+    <string key="concept:name" value="name"/>
+    <date key="time:timestamp" value="2011-04-13T14:02:31.199+02:00"/>
+    <string key="Activity" value="string"/>
+    <string key="Resource" value="string"/>
+  </global>
+  <classifier name="Activity" keys="Activity"/>
+  <classifier name="activity classifier" keys="Activity"/>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="left"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="left"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="left"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="left"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move A"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move A"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="forward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move B"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="move B"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="right"/>
+      <date key="time:timestamp" value="2021-12-30T14:39:00.000+01:00"/>
+      <string key="Activity" value="right"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="ready"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check mast"/>
+      <date key="time:timestamp" value="2021-12-30T14:33:00.000+01:00"/>
+      <string key="Activity" value="check mast"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check wheels"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="check wheels"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="check arm"/>
+      <date key="time:timestamp" value="2021-12-30T14:35:00.000+01:00"/>
+      <string key="Activity" value="check arm"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move C"/>
+      <date key="time:timestamp" value="2021-12-30T14:36:00.000+01:00"/>
+      <string key="Activity" value="move C"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="backward"/>
+      <date key="time:timestamp" value="2021-12-30T14:37:00.000+01:00"/>
+      <string key="Activity" value="forward"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="move Base"/>
+      <date key="time:timestamp" value="2021-12-30T14:40:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+    <event>
+      <string key="concept:name" value="ready"/>
+      <date key="time:timestamp" value="2021-12-30T14:41:00.000+01:00"/>
+      <string key="Activity" value="move Base"/>
+      <string key="Resource" value="Curiosity"/>
+    </event>
+  </trace>
+</log>

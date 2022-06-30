@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+  <string key="creator" value="Angelo Ferrando"/>
+  <extension name="Concept" prefix="concept" uri="http://code.deckfour.org/xes/concept.xesext"/>
+  <extension name="Time" prefix="time" uri="http://code.deckfour.org/xes/time.xesext"/>
+  <extension name="Organizational" prefix="org" uri="http://code.deckfour.org/xes/org.xesext"/>
+  <global scope="trace">
+    <string key="concept:name" value="name"/>
+  </global>
+  <global scope="event">
+    <string key="concept:name" value="name"/>
+    <date key="time:timestamp" value="2011-04-13T14:02:31.199+02:00"/>
+    <string key="Activity" value="string"/>
+    <string key="Resource" value="string"/>
+  </global>
+  <classifier name="Activity" keys="Activity"/>
+  <classifier name="activity classifier" keys="Activity"/>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="a"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="a"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="b"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="b"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="create_lock(l1-1)"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="create_lock(l1-1)"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="lock(l1)"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="lock(l1)"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="c"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="c"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="unlock(l1)"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="unlock(l1)"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
+    <event>
+      <string key="concept:name" value="create_lock(l2-1)"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="create_lock(l2-1)"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="lock(l2)"/>
+      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
+      <string key="Activity" value="lock(l2)"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="c"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="c"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="unlock(l2)"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="unlock(l2)"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+  </trace>
+</log>
