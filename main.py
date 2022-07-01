@@ -175,7 +175,7 @@ def main(argv):
                              petri_utils.add_arc_from_to(tau_transition, lock_aux, new_net)
                         else:
                             petri_utils.add_arc_from_to(new_transition, new_place, new_net)
-    pm4py.save_vis_petri_net(net, initial_marking, final_marking, "old_petri.png")
+    # pm4py.save_vis_petri_net(net, initial_marking, final_marking, "old_petri.png")
     new_source = PetriNet.Place('new_source')
     new_net.places.add(new_source)
     source_transition = PetriNet.Transition('source_tau', None)
@@ -212,7 +212,7 @@ def main(argv):
         if p.name.startswith('synchronise'):
             final_marking[p] = 1
     pm4py.save_vis_petri_net(new_net, initial_marking, final_marking, "petri.png")
-    # pm4py.write_pnml(net, initial_marking, final_marking, "petri.pnml")
+    pm4py.write_pnml(new_net, initial_marking, final_marking, "petri.pnml")
     for t in new_net.transitions:
         print(t.name)
     ts = reachability_graph.construct_reachability_graph(new_net, initial_marking)
