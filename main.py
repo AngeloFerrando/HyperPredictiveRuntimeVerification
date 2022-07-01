@@ -78,7 +78,6 @@ def main(argv):
     log = xes_importer.apply(args.log)
     n = args.nthreads
 
-    # petri test
     net, initial_marking, final_marking = pm4py.discover_petri_net_inductive(log)
     places = set(net.places)
     new_net = PetriNet('new')
@@ -86,14 +85,18 @@ def main(argv):
     for i in range(0, n):
         transitions = set()
         for place in places:
-            found = None
+            foundW = None
+            foundR = None
             for arc in place.in_arcs:
                 aux = str(arc).strip().replace(',', '').split('->')[0]
-                if aux.startswith('(t)access_shared_data('):
-                    found = aux[22:aux.find(')', 3)]
-                    break
-            if found:
-                new_place = PetriNet.Place('critical' + found + 'critical' + place.name + str(i))
+                if aux.startswith('(t)write_shared_data('):
+                    foundW = aux[21:aux.find(')', 3)]
+                if aux.startswith('(t)read_shared_data('):
+                    foundR = aux[20:aux.find(')', 3)]
+            if foundW:
+                new_place = PetriNet.Place('criticalW' + foundW + 'criticalW' + place.name + str(i))
+            elif foundR:
+                new_place = PetriNet.Place('criticalR' + foundR + 'criticalR' + place.name + str(i))
             else:
                 new_place = PetriNet.Place(place.name + str(i))
             new_net.places.add(new_place)
@@ -172,6 +175,7 @@ def main(argv):
                              petri_utils.add_arc_from_to(tau_transition, lock_aux, new_net)
                         else:
                             petri_utils.add_arc_from_to(new_transition, new_place, new_net)
+    pm4py.save_vis_petri_net(net, initial_marking, final_marking, "old_petri.png")
     new_source = PetriNet.Place('new_source')
     new_net.places.add(new_source)
     source_transition = PetriNet.Transition('source_tau', None)
@@ -209,19 +213,28 @@ def main(argv):
             final_marking[p] = 1
     pm4py.save_vis_petri_net(new_net, initial_marking, final_marking, "petri.png")
     # pm4py.write_pnml(net, initial_marking, final_marking, "petri.pnml")
+    for t in new_net.transitions:
+        print(t.name)
     ts = reachability_graph.construct_reachability_graph(new_net, initial_marking)
     for state in ts.states:
         critical_sections = set()
-        print(state)
+        # print(state)
         i = 0
         while True:
-            j = state.name.find('critical', i)
-            k = state.name.find('critical', j+1)
+            j = state.name.find('criticalR', i)
+            k = state.name.find('criticalR', j+1)
             if j == -1 or k == -1: break
-            if state.name[j+8:k] in critical_sections:
+            critical_sections.add(state.name[j+9:k])
+            i = k+1
+        i = 0
+        while True:
+            j = state.name.find('criticalW', i)
+            k = state.name.find('criticalW', j+1)
+            if j == -1 or k == -1: break
+            if state.name[j+9:k] in critical_sections:
                 print('ERROR')
                 return
-            critical_sections.add(state.name[j+8:k])
+            critical_sections.add(state.name[j+9:k])
             i = k+1
 
     # gviz = ts_visualizer.apply(ts, parameters={ts_visualizer.Variants.VIEW_BASED.value.Parameters.FORMAT: "svg"})
