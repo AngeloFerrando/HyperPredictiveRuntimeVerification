@@ -67,22 +67,26 @@ def main(argv):
     parser = argparse.ArgumentParser(
         description='Python prototype of Hyper Predictive Runtime Verification through Process Mining',
         formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument('log',
-        help='log file to derive the model of the system',
+    parser.add_argument('logs',
+        help='log files to derive the model of the system [log1.xes, log2.xes, ..., logN.xes], where each log denotes the executions for a single thread',
         type=str)
     parser.add_argument('nthreads',
         help='number of threads to consider',
         type=int)
-    parser.add_argument('--view', action='store_true')
     args = parser.parse_args()
-    log = xes_importer.apply(args.log)
     n = args.nthreads
+    new_net = PetriNet('new_net')
+    # sources_sinks = []
 
-    net, initial_marking, final_marking = pm4py.discover_petri_net_inductive(log)
-    places = set(net.places)
-    new_net = PetriNet('new')
-    locks = set()
-    for i in range(0, n):
+    j = 0
+    for log in args.logs.split(','):
+        log = xes_importer.apply(log)
+        net, initial_marking, final_marking = pm4py.discover_petri_net_inductive(log)
+        places = set(net.places)
+        # new_net = PetriNet('new')
+        locks = set()
+        # for i in range(0, n):
+        i = 0
         transitions = set()
         for place in places:
             foundW = None
@@ -94,11 +98,11 @@ def main(argv):
                 if aux.startswith('(t)read_shared_data('):
                     foundR = aux[20:aux.find(')', 3)]
             if foundW:
-                new_place = PetriNet.Place('criticalW' + foundW + 'criticalW' + place.name + str(i))
+                new_place = PetriNet.Place('criticalW' + foundW + 'criticalW' + place.name + str(i) + str(j))
             elif foundR:
-                new_place = PetriNet.Place('criticalR' + foundR + 'criticalR' + place.name + str(i))
+                new_place = PetriNet.Place('criticalR' + foundR + 'criticalR' + place.name + str(i) + str(j))
             else:
-                new_place = PetriNet.Place(place.name + str(i))
+                new_place = PetriNet.Place(place.name + str(i) + str(j))
             new_net.places.add(new_place)
             arcs = set(place.in_arcs)
             arcs.update(place.out_arcs)
@@ -175,17 +179,66 @@ def main(argv):
                              petri_utils.add_arc_from_to(tau_transition, lock_aux, new_net)
                         else:
                             petri_utils.add_arc_from_to(new_transition, new_place, new_net)
-    # pm4py.save_vis_petri_net(net, initial_marking, final_marking, "old_petri.png")
-    new_source = PetriNet.Place('new_source')
-    new_net.places.add(new_source)
-    source_transition = PetriNet.Transition('source_tau', None)
-    new_net.transitions.add(source_transition)
-    petri_utils.add_arc_from_to(new_source, source_transition, new_net)
+
+        # new_source = PetriNet.Place('new_source' + str(j))
+        # new_net.places.add(new_source)
+        # source_transition = PetriNet.Transition('source_tau' + str(j), None)
+        # new_net.transitions.add(source_transition)
+        # petri_utils.add_arc_from_to(new_source, source_transition, new_net)
+        #
+        # for p in new_net.places:
+        #     if p.name.startswith('new_source'):
+        #         petri_utils.add_arc_from_to(source_transition, p, new_net)
+        # pm4py.save_vis_petri_net(new_net, initial_marking, final_marking, "petri" + str(j) + ".png")
+        # initial_marking = Marking()
+        # initial_marking[new_source] = 1
+        # locks_initial_tokens = {}
+        # for t in new_net.transitions:
+        #     if t.name and t.name.startswith('create_lock('):
+        #         args = t.name[12:t.name.find(')')]
+        #         args = args.split('-')
+        #         lock = args[0]
+        #         number_inside_lock = int(args[1])
+        #         locks_initial_tokens[lock] = number_inside_lock
+        # for p in new_net.places:
+        #     if p.name.startswith('synchronise'):
+        #         initial_marking[p] = locks_initial_tokens[p.name[11:]]
+        # new_sink = PetriNet.Place('new_sink' + str(j))
+        # new_net.places.add(new_sink)
+        # sink_transition = PetriNet.Transition('sink_tau' + str(j), None)
+        # new_net.transitions.add(sink_transition)
+        # petri_utils.add_arc_from_to(sink_transition, new_sink, new_net)
+        # for p in new_net.places:
+        #     if p.name.startswith('sink'):
+        #         petri_utils.add_arc_from_to(p, sink_transition, new_net)
+        # final_marking = Marking()
+        # final_marking[new_sink] = 1
+        # for p in new_net.places:
+        #     if p.name.startswith('synchronise'):
+        #         final_marking[p] = 1
+        # sources_sinks.append((new_source, new_sink))
+        j = j + 1
+
+    final_source = PetriNet.Place('final_source')
+    new_net.places.add(final_source)
+    final_sink = PetriNet.Place('final_sink')
+    new_net.places.add(final_sink)
+    final_source_transition = PetriNet.Transition('source_tau', None)
+    new_net.transitions.add(final_source_transition)
+    final_sink_transition = PetriNet.Transition('source_tau', None)
+    new_net.transitions.add(final_sink_transition)
+    petri_utils.add_arc_from_to(final_source, final_source_transition, new_net)
+    petri_utils.add_arc_from_to(final_sink_transition, final_sink, new_net)
     for p in new_net.places:
         if p.name.startswith('source'):
-            petri_utils.add_arc_from_to(source_transition, p, new_net)
+            petri_utils.add_arc_from_to(final_source_transition, p, new_net)
+        elif p.name.startswith('sink'):
+            petri_utils.add_arc_from_to(p, final_sink_transition, new_net)
     initial_marking = Marking()
-    initial_marking[new_source] = 1
+    initial_marking[final_source] = n
+    final_marking = Marking()
+    final_marking[final_sink] = n
+
     locks_initial_tokens = {}
     for t in new_net.transitions:
         if t.name and t.name.startswith('create_lock('):
@@ -198,19 +251,6 @@ def main(argv):
         if p.name.startswith('synchronise'):
             initial_marking[p] = locks_initial_tokens[p.name[11:]]
 
-    new_sink = PetriNet.Place('new_sink')
-    new_net.places.add(new_sink)
-    sink_transition = PetriNet.Transition('sink_tau', None)
-    new_net.transitions.add(sink_transition)
-    petri_utils.add_arc_from_to(sink_transition, new_sink, new_net)
-    for p in new_net.places:
-        if p.name.startswith('sink'):
-            petri_utils.add_arc_from_to(p, sink_transition, new_net)
-    final_marking = Marking()
-    final_marking[new_sink] = 1
-    for p in new_net.places:
-        if p.name.startswith('synchronise'):
-            final_marking[p] = 1
     pm4py.save_vis_petri_net(new_net, initial_marking, final_marking, "petri.png")
     pm4py.write_pnml(new_net, initial_marking, final_marking, "petri.pnml")
     for t in new_net.transitions:
