@@ -275,7 +275,7 @@ def main(argv):
             w = state.name.find('criticalW', k+1)
             if j == -1 or k == -1 or w == -1: break
             if state.name[j+9:k] in critical_sections or int(state.name[w+11]) > 1:
-                print('Data race found')
+                print('Data race found on shared memory: ' + state.name[j+9:k])
                 return
             critical_sections.add(state.name[j+9:k])
             i = k+1
