@@ -98,7 +98,7 @@ def main(argv):
                 if aux.startswith('(t)read_shared_data('):
                     foundR = aux[20:aux.find(')', 3)]
             if foundW:
-                new_place = PetriNet.Place('criticalW' + foundW + 'criticalW' + place.name + str(i) + str(j))
+                new_place = PetriNet.Place('criticalW' + foundW + 'criticalW' + place.name + 'criticalW' + str(i) + str(j))
             elif foundR:
                 new_place = PetriNet.Place('criticalR' + foundR + 'criticalR' + place.name + str(i) + str(j))
             else:
@@ -256,6 +256,8 @@ def main(argv):
     for t in new_net.transitions:
         print(t.name)
     ts = reachability_graph.construct_reachability_graph(new_net, initial_marking)
+    # gviz = ts_visualizer.apply(ts, parameters={ts_visualizer.Variants.VIEW_BASED.value.Parameters.FORMAT: "svg"})
+    # ts_visualizer.view(gviz)
     for state in ts.states:
         critical_sections = set()
         # print(state)
@@ -270,16 +272,14 @@ def main(argv):
         while True:
             j = state.name.find('criticalW', i)
             k = state.name.find('criticalW', j+1)
-            if j == -1 or k == -1: break
-            if state.name[j+9:k] in critical_sections:
-                print('ERROR')
+            w = state.name.find('criticalW', k+1)
+            if j == -1 or k == -1 or w == -1: break
+            if state.name[j+9:k] in critical_sections or int(state.name[w+11]) > 1:
+                print('Data race found')
                 return
             critical_sections.add(state.name[j+9:k])
             i = k+1
 
-    # gviz = ts_visualizer.apply(ts, parameters={ts_visualizer.Variants.VIEW_BASED.value.Parameters.FORMAT: "svg"})
-    # ts_visualizer.view(gviz)
-    # petri test
 
 if __name__ == '__main__':
     main(sys.argv)
