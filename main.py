@@ -78,108 +78,107 @@ def main(argv):
     new_net = PetriNet('new_net')
     # sources_sinks = []
 
+    locks = set()
     j = 0
     for log in args.logs.split(','):
         log = xes_importer.apply(log)
         net, initial_marking, final_marking = pm4py.discover_petri_net_inductive(log)
         places = set(net.places)
         # new_net = PetriNet('new')
-        locks = set()
-        # for i in range(0, n):
-        i = 0
-        transitions = set()
-        for place in places:
-            foundW = None
-            foundR = None
-            for arc in place.in_arcs:
-                aux = str(arc).strip().replace(',', '').split('->')[0]
-                if aux.startswith('(t)write_shared_data('):
-                    foundW = aux[21:aux.find(')', 3)]
-                if aux.startswith('(t)read_shared_data('):
-                    foundR = aux[20:aux.find(')', 3)]
-            if foundW:
-                new_place = PetriNet.Place('criticalW' + foundW + 'criticalW' + place.name + 'criticalW' + str(i) + str(j))
-            elif foundR:
-                new_place = PetriNet.Place('criticalR' + foundR + 'criticalR' + place.name + str(i) + str(j))
-            else:
-                new_place = PetriNet.Place(place.name + str(i) + str(j))
-            new_net.places.add(new_place)
-            arcs = set(place.in_arcs)
-            arcs.update(place.out_arcs)
-            if arcs:
-                arcs_str = str(arcs)
-                arcs_str = arcs_str.replace('{', '').replace('}', '')
-                arcs_arr = [s.strip().replace(',', '').split('->') for s in arcs_str.split(',')]
-                arcs_arr = [(a[0], a[1]) for a in arcs_arr]
-                for (a, b) in arcs_arr:
-                    if a.startswith('(p)'):
-                        new_transition = None
-                        for t in transitions:
-                            if t.name == b.replace('(t)', ''):
-                                new_transition = t
-                                break
-                        if not new_transition:
-                            if b.replace('(t)', '').startswith('tau'):
-                                new_transition = PetriNet.Transition(b.replace('(t)', ''), None)
-                            else:
-                                new_transition = PetriNet.Transition(b.replace('(t)', ''), b.replace('(t)', ''))
-                            transitions.add(new_transition)
-                            new_net.transitions.add(new_transition)
-                        petri_utils.add_arc_from_to(new_place, new_transition, new_net)
-                    else:
-                        new_transition = None
-                        for t in transitions:
-                            if t.name == a.replace('(t)', ''):
-                                new_transition = t
-                                break
-                        if not new_transition:
-                            if a.replace('(t)', '').startswith('tau'):
-                                new_transition = PetriNet.Transition(a.replace('(t)', ''), None)
-                            else:
-                                new_transition = PetriNet.Transition(a.replace('(t)', ''), a.replace('(t)', ''))
-                            transitions.add(new_transition)
-                            new_net.transitions.add(new_transition)
-                        if a.startswith('(t)lock'):
-                            lock = a[a.find('(', 3)+1:a.find(')', 3)]
-                            lock_place = PetriNet.Place(a + str(i))
-                            new_net.places.add(lock_place)
-                            petri_utils.add_arc_from_to(new_transition, lock_place, new_net)
-                            tau_transition = PetriNet.Transition('tau_lock', None)
-                            new_net.transitions.add(tau_transition)
-                            petri_utils.add_arc_from_to(lock_place, tau_transition, new_net)
-                            petri_utils.add_arc_from_to(tau_transition, new_place, new_net)
-                            lock_aux = None
-                            for l in locks:
-                                if l.name == 'synchronise' + lock:
-                                    lock_aux = l
+        for i in range(0, n):
+            transitions = set()
+            for place in places:
+                foundW = None
+                foundR = None
+                for arc in place.in_arcs:
+                    aux = str(arc).strip().replace(',', '').split('->')[0]
+                    if aux.startswith('(t)write_shared_data('):
+                        foundW = aux[21:aux.find(')', 3)]
+                    if aux.startswith('(t)read_shared_data('):
+                        foundR = aux[20:aux.find(')', 3)]
+                if foundW:
+                    new_place = PetriNet.Place('criticalW' + foundW + 'criticalW' + place.name + 'criticalW' + str(i) + str(j))
+                elif foundR:
+                    new_place = PetriNet.Place('criticalR' + foundR + 'criticalR' + place.name + 'criticalR' + str(i) + str(j))
+                else:
+                    new_place = PetriNet.Place(place.name + str(i) + str(j))
+                new_net.places.add(new_place)
+                arcs = set(place.in_arcs)
+                arcs.update(place.out_arcs)
+                if arcs:
+                    arcs_str = str(arcs)
+                    arcs_str = arcs_str.replace('{', '').replace('}', '')
+                    arcs_arr = [s.strip().replace(',', '').split('->') for s in arcs_str.split(',')]
+                    arcs_arr = [(a[0], a[1]) for a in arcs_arr]
+                    for (a, b) in arcs_arr:
+                        if a.startswith('(p)'):
+                            new_transition = None
+                            for t in transitions:
+                                if t.name == b.replace('(t)', ''):
+                                    new_transition = t
                                     break
-                            if not lock_aux:
-                                lock_aux = PetriNet.Place('synchronise' + lock)
-                                locks.add(lock_aux)
-                                new_net.places.add(lock_aux)
-                            petri_utils.add_arc_from_to(lock_aux, tau_transition, new_net)
-                        elif a.startswith('(t)unlock'):
-                             lock = a[a.find('(', 3)+1:a.find(')', 3)]
-                             tau_transition = PetriNet.Transition('tau_lock', None)
-                             new_net.transitions.add(tau_transition)
-                             lock_place = PetriNet.Place(a + str(i))
-                             new_net.places.add(lock_place)
-                             petri_utils.add_arc_from_to(new_transition, lock_place, new_net)
-                             petri_utils.add_arc_from_to(lock_place, tau_transition, new_net)
-                             petri_utils.add_arc_from_to(tau_transition, new_place, new_net)
-                             lock_aux = None
-                             for l in locks:
-                                 if l.name == 'synchronise' + lock:
-                                     lock_aux = l
-                                     break
-                             if not lock_aux:
-                                 lock_aux = PetriNet.Place('synchronise' + lock)
-                                 locks.add(lock_aux)
-                                 new_net.places.add(lock_aux)
-                             petri_utils.add_arc_from_to(tau_transition, lock_aux, new_net)
+                            if not new_transition:
+                                if b.replace('(t)', '').startswith('tau') or b.replace('(t)', '').startswith('skip'):
+                                    new_transition = PetriNet.Transition(b.replace('(t)', ''), None)
+                                else:
+                                    new_transition = PetriNet.Transition(b.replace('(t)', ''), b.replace('(t)', ''))
+                                transitions.add(new_transition)
+                                new_net.transitions.add(new_transition)
+                            petri_utils.add_arc_from_to(new_place, new_transition, new_net)
                         else:
-                            petri_utils.add_arc_from_to(new_transition, new_place, new_net)
-
+                            new_transition = None
+                            for t in transitions:
+                                if t.name == a.replace('(t)', ''):
+                                    new_transition = t
+                                    break
+                            if not new_transition:
+                                if a.replace('(t)', '').startswith('tau') or a.replace('(t)', '').startswith('skip'):
+                                    new_transition = PetriNet.Transition(a.replace('(t)', ''), None)
+                                else:
+                                    new_transition = PetriNet.Transition(a.replace('(t)', ''), a.replace('(t)', ''))
+                                transitions.add(new_transition)
+                                new_net.transitions.add(new_transition)
+                            if a.startswith('(t)lock'):
+                                lock = a[a.find('(', 3)+1:a.find(')', 3)]
+                                lock_place = PetriNet.Place(a + str(i))
+                                new_net.places.add(lock_place)
+                                petri_utils.add_arc_from_to(new_transition, lock_place, new_net)
+                                tau_transition = PetriNet.Transition('tau_lock', None)
+                                new_net.transitions.add(tau_transition)
+                                petri_utils.add_arc_from_to(lock_place, tau_transition, new_net)
+                                petri_utils.add_arc_from_to(tau_transition, new_place, new_net)
+                                lock_aux = None
+                                for l in locks:
+                                    if l.name == 'synchronise' + lock:
+                                        lock_aux = l
+                                        break
+                                if not lock_aux:
+                                    lock_aux = PetriNet.Place('synchronise' + lock)
+                                    locks.add(lock_aux)
+                                    new_net.places.add(lock_aux)
+                                petri_utils.add_arc_from_to(lock_aux, tau_transition, new_net)
+                            elif a.startswith('(t)unlock'):
+                                 lock = a[a.find('(', 3)+1:a.find(')', 3)]
+                                 tau_transition = PetriNet.Transition('tau_lock', None)
+                                 new_net.transitions.add(tau_transition)
+                                 lock_place = PetriNet.Place(a + str(i))
+                                 new_net.places.add(lock_place)
+                                 petri_utils.add_arc_from_to(new_transition, lock_place, new_net)
+                                 petri_utils.add_arc_from_to(lock_place, tau_transition, new_net)
+                                 petri_utils.add_arc_from_to(tau_transition, new_place, new_net)
+                                 lock_aux = None
+                                 for l in locks:
+                                     if l.name == 'synchronise' + lock:
+                                         lock_aux = l
+                                         break
+                                 if not lock_aux:
+                                     lock_aux = PetriNet.Place('synchronise' + lock)
+                                     locks.add(lock_aux)
+                                     new_net.places.add(lock_aux)
+                                 petri_utils.add_arc_from_to(tau_transition, lock_aux, new_net)
+                            else:
+                                petri_utils.add_arc_from_to(new_transition, new_place, new_net)
+            j = j + 1
         # new_source = PetriNet.Place('new_source' + str(j))
         # new_net.places.add(new_source)
         # source_transition = PetriNet.Transition('source_tau' + str(j), None)
@@ -217,7 +216,6 @@ def main(argv):
         #     if p.name.startswith('synchronise'):
         #         final_marking[p] = 1
         # sources_sinks.append((new_source, new_sink))
-        j = j + 1
 
     final_source = PetriNet.Place('final_source')
     new_net.places.add(final_source)
@@ -235,9 +233,9 @@ def main(argv):
         elif p.name.startswith('sink'):
             petri_utils.add_arc_from_to(p, final_sink_transition, new_net)
     initial_marking = Marking()
-    initial_marking[final_source] = n
+    initial_marking[final_source] = 1
     final_marking = Marking()
-    final_marking[final_sink] = n
+    final_marking[final_sink] = 1
 
     locks_initial_tokens = {}
     for t in new_net.transitions:
@@ -260,25 +258,30 @@ def main(argv):
     # ts_visualizer.view(gviz)
     for state in ts.states:
         critical_sections = set()
-        # print(state)
+        print(state)
         i = 0
         while True:
             j = state.name.find('criticalR', i)
             k = state.name.find('criticalR', j+1)
-            if j == -1 or k == -1: break
-            critical_sections.add(state.name[j+9:k])
-            i = k+1
+            w = state.name.find('criticalR', k+1)
+            if j == -1 or k == -1 or w == -1: break
+            critical_sections.add((state.name[j+9:k], state.name[w+9:-1]))
+            i = w+1
         i = 0
         while True:
             j = state.name.find('criticalW', i)
             k = state.name.find('criticalW', j+1)
             w = state.name.find('criticalW', k+1)
             if j == -1 or k == -1 or w == -1: break
-            if state.name[j+9:k] in critical_sections or int(state.name[w+11]) > 1:
-                print('Data race found on shared memory: ' + state.name[j+9:k])
-                return
-            critical_sections.add(state.name[j+9:k])
-            i = k+1
+            for (c, id) in critical_sections:
+                if c == state.name[j+9:k] and id != state.name[w+9:-1]:
+                    print('Data race found on shared memory: ' + state.name[j+9:k])
+                    return
+            # if state.name[j+9:k] in critical_sections or int(state.name[w+11]) > 1:
+            #     print('Data race found on shared memory: ' + state.name[j+9:k])
+            #     return
+            critical_sections.add((state.name[j+9:k], state.name[w+9:-1]))
+            i = w+1
 
 
 if __name__ == '__main__':

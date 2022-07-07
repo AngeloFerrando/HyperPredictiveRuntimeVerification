@@ -19,22 +19,6 @@
     <string key="concept:name" value="3"/>
     <string key="creator" value="Angelo Ferrando"/>
     <event>
-      <string key="concept:name" value="a"/>
-      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
-      <string key="Activity" value="a"/>
-      <string key="Resource" value="Thread1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="b"/>
-      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
-      <string key="Activity" value="b"/>
-      <string key="Resource" value="Thread1"/>
-    </event>
-  </trace>
-  <trace>
-    <string key="concept:name" value="3"/>
-    <string key="creator" value="Angelo Ferrando"/>
-    <event>
       <string key="concept:name" value="create_lock(l1-1)"/>
       <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
       <string key="Activity" value="create_lock(l1-1)"/>
@@ -47,9 +31,15 @@
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
-      <string key="concept:name" value="read_shared_data(c)"/>
+      <string key="concept:name" value="write_shared_data(c)"/>
       <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
-      <string key="Activity" value="read_shared_data(c)"/>
+      <string key="Activity" value="write_shared_data(c)"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="write_shared_data(d)"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="write_shared_data(d)"/>
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
@@ -63,15 +53,9 @@
     <string key="concept:name" value="3"/>
     <string key="creator" value="Angelo Ferrando"/>
     <event>
-      <string key="concept:name" value="create_lock(l3-1)"/>
-      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
-      <string key="Activity" value="create_lock(l3-1)"/>
-      <string key="Resource" value="Thread1"/>
-    </event>
-    <event>
-      <string key="concept:name" value="lock(l3)"/>
-      <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
-      <string key="Activity" value="lock(l3)"/>
+      <string key="concept:name" value="write_shared_data(d)"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="write_shared_data(d)"/>
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
@@ -80,10 +64,20 @@
       <string key="Activity" value="write_shared_data(c)"/>
       <string key="Resource" value="Thread1"/>
     </event>
+  </trace>
+  <trace>
+    <string key="concept:name" value="3"/>
+    <string key="creator" value="Angelo Ferrando"/>
     <event>
-      <string key="concept:name" value="unlock(l3)"/>
+      <string key="concept:name" value="write_shared_data(c)"/>
       <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
-      <string key="Activity" value="unlock(l3)"/>
+      <string key="Activity" value="write_shared_data(c)"/>
+      <string key="Resource" value="Thread1"/>
+    </event>
+    <event>
+      <string key="concept:name" value="a"/>
+      <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+      <string key="Activity" value="a"/>
       <string key="Resource" value="Thread1"/>
     </event>
   </trace>
