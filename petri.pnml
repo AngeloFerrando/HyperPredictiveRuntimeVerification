@@ -2,54 +2,9 @@
 <pnml>
   <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
     <page id="n0">
-      <place id="p_400">
+      <place id="p_700">
         <name>
-          <text>p_400</text>
-        </name>
-      </place>
-      <place id="p_300">
-        <name>
-          <text>p_300</text>
-        </name>
-      </place>
-      <place id="(t)lock(l1)0">
-        <name>
-          <text>(t)lock(l1)0</text>
-        </name>
-      </place>
-      <place id="p_411">
-        <name>
-          <text>p_411</text>
-        </name>
-      </place>
-      <place id="(t)unlock(l3)1">
-        <name>
-          <text>(t)unlock(l3)1</text>
-        </name>
-      </place>
-      <place id="(t)lock(l3)1">
-        <name>
-          <text>(t)lock(l3)1</text>
-        </name>
-      </place>
-      <place id="p_500">
-        <name>
-          <text>p_500</text>
-        </name>
-      </place>
-      <place id="criticalWccriticalWp_8criticalW11">
-        <name>
-          <text>criticalWccriticalWp_8criticalW11</text>
-        </name>
-      </place>
-      <place id="source11">
-        <name>
-          <text>source11</text>
-        </name>
-      </place>
-      <place id="sink00">
-        <name>
-          <text>sink00</text>
+          <text>p_700</text>
         </name>
       </place>
       <place id="criticalWccriticalWp_8criticalW00">
@@ -57,82 +12,14 @@
           <text>criticalWccriticalWp_8criticalW00</text>
         </name>
       </place>
-      <place id="p_611">
-        <name>
-          <text>p_611</text>
-        </name>
-      </place>
-      <place id="p_911">
-        <name>
-          <text>p_911</text>
-        </name>
-      </place>
-      <place id="(t)lock(l1)1">
-        <name>
-          <text>(t)lock(l1)1</text>
-        </name>
-      </place>
-      <place id="(t)lock(l3)0">
-        <name>
-          <text>(t)lock(l3)0</text>
-        </name>
-      </place>
-      <place id="criticalRccriticalRp_11criticalR00">
-        <name>
-          <text>criticalRccriticalRp_11criticalR00</text>
-        </name>
-      </place>
-      <place id="(t)unlock(l1)1">
-        <name>
-          <text>(t)unlock(l1)1</text>
-        </name>
-      </place>
-      <place id="p_311">
-        <name>
-          <text>p_311</text>
-        </name>
-      </place>
-      <place id="p_511">
-        <name>
-          <text>p_511</text>
-        </name>
-      </place>
-      <place id="synchronisel1">
-        <name>
-          <text>synchronisel1</text>
-        </name>
-        <initialMarking>
-          <text>1</text>
-        </initialMarking>
-      </place>
       <place id="p_1000">
         <name>
           <text>p_1000</text>
         </name>
       </place>
-      <place id="p_711">
+      <place id="p_911">
         <name>
-          <text>p_711</text>
-        </name>
-      </place>
-      <place id="criticalRccriticalRp_11criticalR11">
-        <name>
-          <text>criticalRccriticalRp_11criticalR11</text>
-        </name>
-      </place>
-      <place id="(t)unlock(l3)0">
-        <name>
-          <text>(t)unlock(l3)0</text>
-        </name>
-      </place>
-      <place id="p_600">
-        <name>
-          <text>p_600</text>
-        </name>
-      </place>
-      <place id="p_900">
-        <name>
-          <text>p_900</text>
+          <text>p_911</text>
         </name>
       </place>
       <place id="final_source">
@@ -148,19 +35,102 @@
           <text>final_sink</text>
         </name>
       </place>
-      <place id="source00">
+      <place id="(t)unlock(l1)0">
         <name>
-          <text>source00</text>
+          <text>(t)unlock(l1)0</text>
         </name>
       </place>
-      <place id="sink11">
+      <place id="synchronisel1">
         <name>
-          <text>sink11</text>
+          <text>synchronisel1</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="(t)unlock(l3)1">
+        <name>
+          <text>(t)unlock(l3)1</text>
+        </name>
+      </place>
+      <place id="p_511">
+        <name>
+          <text>p_511</text>
+        </name>
+      </place>
+      <place id="p_311">
+        <name>
+          <text>p_311</text>
+        </name>
+      </place>
+      <place id="p_711">
+        <name>
+          <text>p_711</text>
+        </name>
+      </place>
+      <place id="criticalWccriticalWp_8criticalW11">
+        <name>
+          <text>criticalWccriticalWp_8criticalW11</text>
         </name>
       </place>
       <place id="p_1011">
         <name>
           <text>p_1011</text>
+        </name>
+      </place>
+      <place id="criticalRccriticalRp_11criticalR11">
+        <name>
+          <text>criticalRccriticalRp_11criticalR11</text>
+        </name>
+      </place>
+      <place id="(t)lock(l3)0">
+        <name>
+          <text>(t)lock(l3)0</text>
+        </name>
+      </place>
+      <place id="(t)unlock(l1)1">
+        <name>
+          <text>(t)unlock(l1)1</text>
+        </name>
+      </place>
+      <place id="p_500">
+        <name>
+          <text>p_500</text>
+        </name>
+      </place>
+      <place id="p_300">
+        <name>
+          <text>p_300</text>
+        </name>
+      </place>
+      <place id="sink00">
+        <name>
+          <text>sink00</text>
+        </name>
+      </place>
+      <place id="p_600">
+        <name>
+          <text>p_600</text>
+        </name>
+      </place>
+      <place id="criticalRccriticalRp_11criticalR00">
+        <name>
+          <text>criticalRccriticalRp_11criticalR00</text>
+        </name>
+      </place>
+      <place id="source11">
+        <name>
+          <text>source11</text>
+        </name>
+      </place>
+      <place id="p_411">
+        <name>
+          <text>p_411</text>
+        </name>
+      </place>
+      <place id="(t)unlock(l3)0">
+        <name>
+          <text>(t)unlock(l3)0</text>
         </name>
       </place>
       <place id="synchronisel3">
@@ -171,30 +141,147 @@
           <text>1</text>
         </initialMarking>
       </place>
-      <place id="(t)unlock(l1)0">
+      <place id="(t)lock(l3)1">
         <name>
-          <text>(t)unlock(l1)0</text>
+          <text>(t)lock(l3)1</text>
         </name>
       </place>
-      <place id="p_700">
+      <place id="(t)lock(l1)1">
         <name>
-          <text>p_700</text>
+          <text>(t)lock(l1)1</text>
         </name>
       </place>
-      <transition id="tau_2">
+      <place id="p_400">
         <name>
-          <text>tau_2</text>
+          <text>p_400</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9f701dc8-65dd-4340-b134-9349dbbd8512"/>
+      </place>
+      <place id="p_900">
+        <name>
+          <text>p_900</text>
+        </name>
+      </place>
+      <place id="sink11">
+        <name>
+          <text>sink11</text>
+        </name>
+      </place>
+      <place id="p_611">
+        <name>
+          <text>p_611</text>
+        </name>
+      </place>
+      <place id="source00">
+        <name>
+          <text>source00</text>
+        </name>
+      </place>
+      <place id="(t)lock(l1)0">
+        <name>
+          <text>(t)lock(l1)0</text>
+        </name>
+      </place>
+      <transition id="source_tau">
+        <name>
+          <text>source_tau</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1643086a-2791-45e8-b51c-3ab3ac2c64bc"/>
+      </transition>
+      <transition id="lock(l1)">
+        <name>
+          <text>lock(l1)</text>
+        </name>
+      </transition>
+      <transition id="lock(l3)">
+        <name>
+          <text>lock(l3)</text>
+        </name>
+      </transition>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="unlock(l3)">
+        <name>
+          <text>unlock(l3)</text>
+        </name>
       </transition>
       <transition id="create_lock(l3-1)">
         <name>
           <text>create_lock(l3-1)</text>
         </name>
       </transition>
-      <transition id="create_lock(l1-1)">
+      <transition id="tau_2">
         <name>
-          <text>create_lock(l1-1)</text>
+          <text>tau_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e7588dc0-c67f-4163-96db-b803ecec05fd"/>
+      </transition>
+      <transition id="tau_lock">
+        <name>
+          <text>tau_lock</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9f76a3da-30ae-4338-acf7-9cc60db85e25"/>
+      </transition>
+      <transition id="write_shared_data(c)">
+        <name>
+          <text>write_shared_data(c)</text>
+        </name>
+      </transition>
+      <transition id="tau_lock">
+        <name>
+          <text>tau_lock</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d5e2719c-7f36-46d6-aad2-688405679a10"/>
+      </transition>
+      <transition id="read_shared_data(c)">
+        <name>
+          <text>read_shared_data(c)</text>
+        </name>
+      </transition>
+      <transition id="source_tau">
+        <name>
+          <text>source_tau</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2e0f606e-36ec-4ff1-b014-2b5d2ca24779"/>
+      </transition>
+      <transition id="read_shared_data(c)">
+        <name>
+          <text>read_shared_data(c)</text>
+        </name>
+      </transition>
+      <transition id="tau_lock">
+        <name>
+          <text>tau_lock</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a886fa15-c4d2-48b3-b3d5-cde59c437d5b"/>
+      </transition>
+      <transition id="create_lock(l3-1)">
+        <name>
+          <text>create_lock(l3-1)</text>
+        </name>
+      </transition>
+      <transition id="tau_lock">
+        <name>
+          <text>tau_lock</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d2ea6a5e-79b1-485c-b2a1-4fda774ac094"/>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="tau_lock">
+        <name>
+          <text>tau_lock</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ab9f183b-ad86-46f6-a2e9-e9406d8dd01e"/>
+      </transition>
+      <transition id="lock(l3)">
+        <name>
+          <text>lock(l3)</text>
         </name>
       </transition>
       <transition id="lock(l1)">
@@ -206,92 +293,34 @@
         <name>
           <text>tau_1</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5276d180-a77e-4ad5-a10c-bfbd9ad2f874"/>
-      </transition>
-      <transition id="unlock(l3)">
-        <name>
-          <text>unlock(l3)</text>
-        </name>
-      </transition>
-      <transition id="lock(l1)">
-        <name>
-          <text>lock(l1)</text>
-        </name>
-      </transition>
-      <transition id="tau_lock">
-        <name>
-          <text>tau_lock</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e7164f22-3fd0-4a8e-b1ac-2c9a5e13b824"/>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0d075fe0-b71a-4df3-ad6e-5f6307b40c7d"/>
       </transition>
       <transition id="b">
         <name>
           <text>b</text>
         </name>
       </transition>
-      <transition id="lock(l3)">
-        <name>
-          <text>lock(l3)</text>
-        </name>
-      </transition>
-      <transition id="tau_lock">
-        <name>
-          <text>tau_lock</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5f3e8d26-caf3-4f90-aade-92b7f31f3682"/>
-      </transition>
-      <transition id="read_shared_data(c)">
-        <name>
-          <text>read_shared_data(c)</text>
-        </name>
-      </transition>
       <transition id="unlock(l1)">
         <name>
           <text>unlock(l1)</text>
-        </name>
-      </transition>
-      <transition id="a">
-        <name>
-          <text>a</text>
         </name>
       </transition>
       <transition id="tau_2">
         <name>
           <text>tau_2</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="726c1413-0155-4bb9-99f9-4918e7fc5a51"/>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e2c17137-5b74-4344-b49b-5be4c1aa7993"/>
       </transition>
-      <transition id="tau_lock">
+      <transition id="create_lock(l1-1)">
         <name>
-          <text>tau_lock</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8d1b4bc6-4af5-46be-8adc-e1caede09452"/>
-      </transition>
-      <transition id="lock(l3)">
-        <name>
-          <text>lock(l3)</text>
-        </name>
-      </transition>
-      <transition id="create_lock(l3-1)">
-        <name>
-          <text>create_lock(l3-1)</text>
-        </name>
-      </transition>
-      <transition id="write_shared_data(c)">
-        <name>
-          <text>write_shared_data(c)</text>
-        </name>
-      </transition>
-      <transition id="b">
-        <name>
-          <text>b</text>
+          <text>create_lock(l1-1)</text>
         </name>
       </transition>
       <transition id="tau_lock">
         <name>
           <text>tau_lock</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7e6a708a-247a-4e89-97a2-33eeafc820b8"/>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0d8fce1d-5d96-49ba-9a4f-73b28831ca0c"/>
       </transition>
       <transition id="unlock(l3)">
         <name>
@@ -302,147 +331,118 @@
         <name>
           <text>tau_lock</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="cabc4515-b776-4ccb-b80c-6216a25bca09"/>
-      </transition>
-      <transition id="tau_lock">
-        <name>
-          <text>tau_lock</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a3fd36c3-6dc1-4ee5-b0f0-ebb4630cb041"/>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2ec06260-387f-4470-a02f-08370f0478a4"/>
       </transition>
       <transition id="tau_1">
         <name>
           <text>tau_1</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="86d1aaa9-ea2b-4d96-a783-f77b0f5cc46b"/>
-      </transition>
-      <transition id="a">
-        <name>
-          <text>a</text>
-        </name>
-      </transition>
-      <transition id="source_tau">
-        <name>
-          <text>source_tau</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ba3b5e39-ce48-431c-90d7-a0884ca57df7"/>
-      </transition>
-      <transition id="source_tau">
-        <name>
-          <text>source_tau</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6b5354f4-f11d-4463-96c6-062ba5830a4e"/>
-      </transition>
-      <transition id="tau_lock">
-        <name>
-          <text>tau_lock</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e6ddcc68-2514-4189-b939-649a58f91fa0"/>
-      </transition>
-      <transition id="read_shared_data(c)">
-        <name>
-          <text>read_shared_data(c)</text>
-        </name>
-      </transition>
-      <transition id="tau_lock">
-        <name>
-          <text>tau_lock</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c5f0271c-ebd0-4184-a166-75cc8a05dd75"/>
-      </transition>
-      <transition id="unlock(l1)">
-        <name>
-          <text>unlock(l1)</text>
-        </name>
-      </transition>
-      <transition id="write_shared_data(c)">
-        <name>
-          <text>write_shared_data(c)</text>
-        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="97efea88-764c-46b4-87d5-2e629f534b60"/>
       </transition>
       <transition id="create_lock(l1-1)">
         <name>
           <text>create_lock(l1-1)</text>
         </name>
       </transition>
-      <arc id="140266450195984" source="source11" target="tau_1"/>
-      <arc id="140266449816592" source="p_300" target="a"/>
-      <arc id="140266435032592" source="read_shared_data(c)" target="criticalRccriticalRp_11criticalR00"/>
-      <arc id="140266435034128" source="p_411" target="tau_2"/>
-      <arc id="140266450152992" source="source_tau" target="source00"/>
-      <arc id="140266449842720" source="p_400" target="tau_2"/>
-      <arc id="140266435034656" source="tau_lock" target="p_411"/>
-      <arc id="140266450194976" source="a" target="p_511"/>
-      <arc id="140266448826912" source="p_711" target="write_shared_data(c)"/>
-      <arc id="140266449888304" source="p_700" target="write_shared_data(c)"/>
-      <arc id="140266449816640" source="a" target="p_500"/>
-      <arc id="140266449920592" source="(t)lock(l3)0" target="tau_lock"/>
-      <arc id="140266449889360" source="p_900" target="lock(l1)"/>
-      <arc id="140266449890896" source="(t)lock(l1)0" target="tau_lock"/>
-      <arc id="140266449889888" source="synchronisel1" target="tau_lock"/>
-      <arc id="140266435032688" source="criticalRccriticalRp_11criticalR00" target="unlock(l1)"/>
-      <arc id="140266450223216" source="source_tau" target="source11"/>
-      <arc id="140266449784448" source="unlock(l3)" target="(t)unlock(l3)0"/>
-      <arc id="140266435034752" source="tau_lock" target="synchronisel1"/>
-      <arc id="140266450195072" source="p_511" target="b"/>
-      <arc id="140266450198144" source="synchronisel3" target="tau_lock"/>
-      <arc id="140266450226816" source="(t)lock(l1)1" target="tau_lock"/>
-      <arc id="140266450151552" source="sink11" target="source_tau"/>
-      <arc id="140266449844880" source="unlock(l1)" target="(t)unlock(l1)0"/>
-      <arc id="140266435033744" source="unlock(l3)" target="(t)unlock(l3)1"/>
-      <arc id="140266450197136" source="p_311" target="create_lock(l1-1)"/>
-      <arc id="140266449920160" source="p_500" target="b"/>
-      <arc id="140266450196128" source="p_311" target="a"/>
-      <arc id="140266449784496" source="(t)unlock(l3)0" target="tau_lock"/>
-      <arc id="140266435033264" source="b" target="p_411"/>
-      <arc id="140266450198192" source="lock(l3)" target="(t)lock(l3)1"/>
-      <arc id="140266450226864" source="tau_lock" target="p_1011"/>
-      <arc id="140266450225328" source="source_tau" target="final_sink"/>
-      <arc id="140266449813712" source="write_shared_data(c)" target="criticalWccriticalWp_8criticalW00"/>
-      <arc id="140266450223312" source="synchronisel1" target="tau_lock"/>
-      <arc id="140266449814240" source="create_lock(l3-1)" target="p_600"/>
-      <arc id="140266449887968" source="synchronisel3" target="tau_lock"/>
-      <arc id="140266450113248" source="create_lock(l1-1)" target="p_911"/>
-      <arc id="140266435033840" source="(t)unlock(l3)1" target="tau_lock"/>
-      <arc id="140266449784064" source="b" target="p_400"/>
-      <arc id="140266449842432" source="tau_lock" target="synchronisel3"/>
-      <arc id="140266449889024" source="create_lock(l1-1)" target="p_900"/>
-      <arc id="140266450042112" source="p_911" target="lock(l1)"/>
-      <arc id="140266449784592" source="tau_lock" target="p_400"/>
-      <arc id="140266449816352" source="tau_1" target="p_300"/>
-      <arc id="140266450225952" source="p_1011" target="read_shared_data(c)"/>
-      <arc id="140266450196272" source="p_311" target="create_lock(l3-1)"/>
-      <arc id="140266449846080" source="(t)unlock(l1)0" target="tau_lock"/>
-      <arc id="140266449815872" source="source00" target="tau_1"/>
-      <arc id="140266450196800" source="tau_1" target="p_311"/>
-      <arc id="140266449816400" source="p_300" target="create_lock(l1-1)"/>
-      <arc id="140266449890128" source="lock(l1)" target="(t)lock(l1)0"/>
-      <arc id="140266435032400" source="p_1000" target="read_shared_data(c)"/>
-      <arc id="140266435033936" source="tau_lock" target="p_411"/>
-      <arc id="140266450152800" source="sink00" target="source_tau"/>
-      <arc id="140266449816928" source="p_300" target="create_lock(l3-1)"/>
-      <arc id="140266449920352" source="tau_lock" target="p_700"/>
-      <arc id="140266435034464" source="unlock(l1)" target="(t)unlock(l1)1"/>
-      <arc id="140266450226528" source="lock(l1)" target="(t)lock(l1)1"/>
-      <arc id="140266450223456" source="read_shared_data(c)" target="criticalRccriticalRp_11criticalR11"/>
-      <arc id="140266449846128" source="tau_lock" target="p_400"/>
-      <arc id="140266449814384" source="p_600" target="lock(l3)"/>
-      <arc id="140266449891184" source="tau_lock" target="p_1000"/>
-      <arc id="140266449814912" source="criticalWccriticalWp_8criticalW00" target="unlock(l3)"/>
-      <arc id="140266450197376" source="write_shared_data(c)" target="criticalWccriticalWp_8criticalW11"/>
-      <arc id="140266449782672" source="tau_2" target="sink00"/>
-      <arc id="140266449920400" source="lock(l3)" target="(t)lock(l3)0"/>
-      <arc id="140266435032976" source="tau_2" target="sink11"/>
-      <arc id="140266450264464" source="p_611" target="lock(l3)"/>
-      <arc id="140266450194832" source="tau_lock" target="p_711"/>
-      <arc id="140266435035040" source="create_lock(l3-1)" target="p_611"/>
-      <arc id="140266435034032" source="tau_lock" target="synchronisel3"/>
-      <arc id="140266449813952" source="tau_lock" target="synchronisel1"/>
-      <arc id="140266435034560" source="(t)unlock(l1)1" target="tau_lock"/>
-      <arc id="140266450225088" source="final_source" target="source_tau"/>
-      <arc id="140266450198480" source="(t)lock(l3)1" target="tau_lock"/>
-      <arc id="140266450194928" source="criticalWccriticalWp_8criticalW11" target="unlock(l3)"/>
-      <arc id="140266450225136" source="criticalRccriticalRp_11criticalR11" target="unlock(l1)"/>
+      <transition id="tau_lock">
+        <name>
+          <text>tau_lock</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bc6cb103-09e7-4ec7-b940-b0a196914839"/>
+      </transition>
+      <transition id="write_shared_data(c)">
+        <name>
+          <text>write_shared_data(c)</text>
+        </name>
+      </transition>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="unlock(l1)">
+        <name>
+          <text>unlock(l1)</text>
+        </name>
+      </transition>
+      <arc id="140144370632208" source="(t)unlock(l3)0" target="tau_lock"/>
+      <arc id="140144370633744" source="synchronisel3" target="tau_lock"/>
+      <arc id="140144370652688" source="p_511" target="b"/>
+      <arc id="140144370654224" source="unlock(l1)" target="(t)unlock(l1)1"/>
+      <arc id="140144370631728" source="p_400" target="tau_2"/>
+      <arc id="140144370652208" source="criticalRccriticalRp_11criticalR00" target="unlock(l1)"/>
+      <arc id="140144370676784" source="lock(l3)" target="(t)lock(l3)1"/>
+      <arc id="140144370678320" source="lock(l1)" target="(t)lock(l1)1"/>
+      <arc id="140144370700352" source="source_tau" target="source11"/>
+      <arc id="140144370676304" source="create_lock(l3-1)" target="p_611"/>
+      <arc id="140144370677840" source="create_lock(l1-1)" target="p_911"/>
+      <arc id="140144370601552" source="p_300" target="create_lock(l1-1)"/>
+      <arc id="140144370631248" source="(t)unlock(l1)0" target="tau_lock"/>
+      <arc id="140144370651728" source="synchronisel1" target="tau_lock"/>
+      <arc id="140144370654320" source="(t)unlock(l1)1" target="tau_lock"/>
+      <arc id="140144370678896" source="p_1011" target="read_shared_data(c)"/>
+      <arc id="140144370675824" source="tau_lock" target="p_411"/>
+      <arc id="140144370677360" source="p_711" target="write_shared_data(c)"/>
+      <arc id="140144370632304" source="tau_lock" target="p_400"/>
+      <arc id="140144370630768" source="b" target="p_400"/>
+      <arc id="140144370633360" source="lock(l3)" target="(t)lock(l3)0"/>
+      <arc id="140144370653840" source="b" target="p_411"/>
+      <arc id="140144370700448" source="sink11" target="source_tau"/>
+      <arc id="140144370631344" source="tau_lock" target="p_400"/>
+      <arc id="140144370632880" source="create_lock(l3-1)" target="p_600"/>
+      <arc id="140144370634416" source="create_lock(l1-1)" target="p_900"/>
+      <arc id="140144370653360" source="p_311" target="create_lock(l1-1)"/>
+      <arc id="140144370675920" source="tau_lock" target="synchronisel3"/>
+      <arc id="140144370601168" source="source00" target="tau_1"/>
+      <arc id="140144370633936" source="p_700" target="write_shared_data(c)"/>
+      <arc id="140144370651344" source="lock(l1)" target="(t)lock(l1)0"/>
+      <arc id="140144370654416" source="tau_lock" target="p_411"/>
+      <arc id="140144370679520" source="final_source" target="source_tau"/>
+      <arc id="140144370678512" source="(t)lock(l1)1" target="tau_lock"/>
+      <arc id="140144370676976" source="(t)lock(l3)1" target="tau_lock"/>
+      <arc id="140144370600688" source="a" target="p_500"/>
+      <arc id="140144370700544" source="source_tau" target="source00"/>
+      <arc id="140144370601744" source="p_300" target="create_lock(l3-1)"/>
+      <arc id="140144370651920" source="p_1000" target="read_shared_data(c)"/>
+      <arc id="140144370678032" source="p_911" target="lock(l1)"/>
+      <arc id="140144370676496" source="p_611" target="lock(l3)"/>
+      <arc id="140144370677552" source="write_shared_data(c)" target="criticalWccriticalWp_8criticalW11"/>
+      <arc id="140144370632496" source="tau_lock" target="synchronisel3"/>
+      <arc id="140144370652976" source="source11" target="tau_1"/>
+      <arc id="140144370654512" source="tau_lock" target="synchronisel1"/>
+      <arc id="140144370679088" source="read_shared_data(c)" target="criticalRccriticalRp_11criticalR11"/>
+      <arc id="140144370679616" source="source_tau" target="final_sink"/>
+      <arc id="140144370677072" source="tau_lock" target="p_711"/>
+      <arc id="140144370633552" source="(t)lock(l3)0" target="tau_lock"/>
+      <arc id="140144370652496" source="a" target="p_511"/>
+      <arc id="140144370678608" source="tau_lock" target="p_1011"/>
+      <arc id="140144370655088" source="unlock(l3)" target="(t)unlock(l3)1"/>
+      <arc id="140144370631536" source="tau_lock" target="synchronisel1"/>
+      <arc id="140144370601840" source="p_300" target="a"/>
+      <arc id="140144370633072" source="p_600" target="lock(l3)"/>
+      <arc id="140144370634608" source="p_900" target="lock(l1)"/>
+      <arc id="140144370653552" source="p_311" target="create_lock(l3-1)"/>
+      <arc id="140144370677648" source="criticalWccriticalWp_8criticalW11" target="unlock(l3)"/>
+      <arc id="140144370601360" source="tau_1" target="p_300"/>
+      <arc id="140144370634128" source="write_shared_data(c)" target="criticalWccriticalWp_8criticalW00"/>
+      <arc id="140144370651536" source="(t)lock(l1)0" target="tau_lock"/>
+      <arc id="140144370679184" source="criticalRccriticalRp_11criticalR11" target="unlock(l1)"/>
+      <arc id="140144370676112" source="tau_2" target="sink11"/>
+      <arc id="140144370679712" source="sink00" target="source_tau"/>
+      <arc id="140144370677168" source="synchronisel3" target="tau_lock"/>
+      <arc id="140144370600880" source="p_500" target="b"/>
+      <arc id="140144370632112" source="unlock(l3)" target="(t)unlock(l3)0"/>
+      <arc id="140144370633648" source="tau_lock" target="p_700"/>
+      <arc id="140144370678704" source="synchronisel1" target="tau_lock"/>
+      <arc id="140144370655184" source="(t)unlock(l3)1" target="tau_lock"/>
+      <arc id="140144370652112" source="read_shared_data(c)" target="criticalRccriticalRp_11criticalR00"/>
+      <arc id="140144370653648" source="p_311" target="a"/>
+      <arc id="140144370654704" source="p_411" target="tau_2"/>
+      <arc id="140144370653168" source="tau_1" target="p_311"/>
+      <arc id="140144370651632" source="tau_lock" target="p_1000"/>
+      <arc id="140144370632688" source="tau_2" target="sink00"/>
+      <arc id="140144370631152" source="unlock(l1)" target="(t)unlock(l1)0"/>
+      <arc id="140144370634224" source="criticalWccriticalWp_8criticalW00" target="unlock(l3)"/>
     </page>
     <finalmarkings>
       <marking>

@@ -21,8 +21,6 @@ from pm4py.objects.log.obj import EventLog
 from pm4py.objects.petri_net.utils import petri_utils
 import argparse
 import time
-sys.path.insert(0,'/usr/local/lib/python3.7/site-packages/')
-import spot
 
 class MarkovDecisionProcess:
     def __init__(self, initial_state, states, transitions):
