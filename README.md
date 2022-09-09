@@ -5,7 +5,7 @@ A Python tool to achieve Hyper Predictive Runtime Verification.
 ## How to install
 
 - Install https://pm4py.fit.fraunhofer.de/
-(version 2.2.8)
+(tested on version 2.2.16)
 
 ## How to use
 
