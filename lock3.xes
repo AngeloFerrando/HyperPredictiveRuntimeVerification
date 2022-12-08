@@ -19,15 +19,15 @@
     <string key="concept:name" value="3"/>
     <string key="creator" value="Angelo Ferrando"/>
     <event>
-      <string key="concept:name" value="create_lock(l1-1)"/>
+      <string key="concept:name" value="create_lock(L1-1)"/>
       <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
-      <string key="Activity" value="create_lock(l1-1)"/>
+      <string key="Activity" value="create_lock(L1-1)"/>
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
-      <string key="concept:name" value="lock(l1)"/>
+      <string key="concept:name" value="lock(L1)"/>
       <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
-      <string key="Activity" value="lock(l1)"/>
+      <string key="Activity" value="lock(L1)"/>
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
@@ -43,9 +43,9 @@
       <string key="Resource" value="Thread1"/>
     </event>
     <event>
-      <string key="concept:name" value="unlock(l1)"/>
+      <string key="concept:name" value="unlock(L1)"/>
       <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
-      <string key="Activity" value="unlock(l1)"/>
+      <string key="Activity" value="unlock(L1)"/>
       <string key="Resource" value="Thread1"/>
     </event>
   </trace>

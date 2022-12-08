@@ -104,10 +104,16 @@ def main(argv):
                 arcs = set(place.in_arcs)
                 arcs.update(place.out_arcs)
                 if arcs:
+                    print(arcs)
                     arcs_str = str(arcs)
+                    print(arcs_str)
                     arcs_str = arcs_str.replace('{', '').replace('}', '')
+                    print(arcs_str)
                     arcs_arr = [s.strip().replace(',', '').split('->') for s in arcs_str.split(',')]
+                    print(arcs_arr)
                     arcs_arr = [(a[0], a[1]) for a in arcs_arr]
+                    print(arcs_arr)
+
                     for (a, b) in arcs_arr:
                         if a.startswith('(p)'):
                             new_transition = None
@@ -146,13 +152,15 @@ def main(argv):
                                 petri_utils.add_arc_from_to(lock_place, tau_transition, new_net)
                                 petri_utils.add_arc_from_to(tau_transition, new_place, new_net)
                                 lock_aux = None
-                                for l in locks:
-                                    if l.name == 'synchronise' + lock:
-                                        lock_aux = l
-                                        break
+                                if lock.startswith('L'):
+                                    for l in locks:
+                                        if l.name == 'synchronise' + lock:
+                                            lock_aux = l
+                                            break
                                 if not lock_aux:
                                     lock_aux = PetriNet.Place('synchronise' + lock)
-                                    locks.add(lock_aux)
+                                    if lock.startswith('L'):
+                                        locks.add(lock_aux)
                                     new_net.places.add(lock_aux)
                                 petri_utils.add_arc_from_to(lock_aux, tau_transition, new_net)
                             elif a.startswith('(t)unlock'):

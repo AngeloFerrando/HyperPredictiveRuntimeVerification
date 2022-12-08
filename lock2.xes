@@ -35,15 +35,15 @@
     <string key="concept:name" value="3"/>
     <string key="creator" value="Angelo Ferrando"/>
     <event>
-      <string key="concept:name" value="create_lock(l3-1)"/>
+      <string key="concept:name" value="create_lock(L3-1)"/>
       <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
-      <string key="Activity" value="create_lock(l3-1)"/>
+      <string key="Activity" value="create_lock(L3-1)"/>
       <string key="Resource" value="Thread2"/>
     </event>
     <event>
-      <string key="concept:name" value="lock(l3)"/>
+      <string key="concept:name" value="lock(L3)"/>
       <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
-      <string key="Activity" value="lock(l3)"/>
+      <string key="Activity" value="lock(L3)"/>
       <string key="Resource" value="Thread2"/>
     </event>
     <event>
@@ -53,9 +53,9 @@
       <string key="Resource" value="Thread2"/>
     </event>
     <event>
-      <string key="concept:name" value="unlock(l3)"/>
+      <string key="concept:name" value="unlock(L3)"/>
       <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
-      <string key="Activity" value="unlock(l3)"/>
+      <string key="Activity" value="unlock(L3)"/>
       <string key="Resource" value="Thread2"/>
     </event>
   </trace>
@@ -63,15 +63,15 @@
     <string key="concept:name" value="3"/>
     <string key="creator" value="Angelo Ferrando"/>
     <event>
-      <string key="concept:name" value="create_lock(l4-1)"/>
+      <string key="concept:name" value="create_lock(L4-1)"/>
       <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
-      <string key="Activity" value="create_lock(l4-1)"/>
+      <string key="Activity" value="create_lock(L4-1)"/>
       <string key="Resource" value="Thread2"/>
     </event>
     <event>
-      <string key="concept:name" value="lock(l4)"/>
+      <string key="concept:name" value="lock(L4)"/>
       <date key="time:timestamp" value="2021-12-30T14:32:00.000+01:00"/>
-      <string key="Activity" value="lock(l4)"/>
+      <string key="Activity" value="lock(L4)"/>
       <string key="Resource" value="Thread2"/>
     </event>
     <event>
@@ -81,9 +81,9 @@
       <string key="Resource" value="Thread2"/>
     </event>
     <event>
-      <string key="concept:name" value="unlock(l4)"/>
+      <string key="concept:name" value="unlock(L4)"/>
       <date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
-      <string key="Activity" value="unlock(l4)"/>
+      <string key="Activity" value="unlock(L4)"/>
       <string key="Resource" value="Thread2"/>
     </event>
   </trace>
