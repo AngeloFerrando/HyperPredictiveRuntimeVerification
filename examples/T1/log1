@@ -1,0 +1,2500 @@
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<ev<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+ent>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<ev<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+
+ent>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<ev<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+
+ent>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<ev<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+ent>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<ev<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+
+ent>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<ev<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+
+ent>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<ev<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+
+ent>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<ev<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+
+ent>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<ev<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+ent>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+</trace>
+

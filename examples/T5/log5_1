@@ -1,0 +1,166 @@
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="create_lock(L:1)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="create_lock(L:1)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="lock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="lock(L)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c0)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c0)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c0)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c0)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="unlock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="unlock(L)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="lock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="lock(L)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c1)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c1)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c1)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c1)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="unlock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="unlock(L)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>
+<event>
+<string key="concept:name" value="create_lock(L:1)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="create_lock(L:1)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="lock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="lock(L)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c0)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c0)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c0)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c0)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="unlock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="unlock(L)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="lock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="lock(L)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c1)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c1)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c1)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c1)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="unlock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="unlock(L)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="lock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="lock(L)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c2)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c2)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c2)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c2)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="unlock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="unlock(L)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+<event>
+<string key="concept:name" value="lock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="lock(L)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="read_shared_data(c3)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="read_shared_data(c3)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="write_shared_data(c3)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="write_shared_data(c3)"/>
+<string key="Resource" value="Thread1"/>
+</event>
+<event>
+<string key="concept:name" value="unlock(L)"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="unlock(L)"/>
+<string key="Resource" value="Thread2"/>
+</event>
+</trace>
+

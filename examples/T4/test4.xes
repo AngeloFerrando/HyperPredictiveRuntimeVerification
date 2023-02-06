@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<log>
+<string key="creator" value="GD"/>
+<extension name="Concept" prefix="concept" uri="http://code.deckfour.org/xes/concept.xesext"/>
+<extension name="Time" prefix="time" uri="http://code.deckfour.org/xes/time.xesext"/>
+<extension name="Organizational" prefix="org" uri="http://code.deckfour.org/xes/org.xesext"/>
+<global scope="trace">
+<string key="concept:name" value="name"/>
+</global><global scope="event"><string key="concept:name" value="name"/>
+<date key="time:timestamp" value="2011-04-13T14:02:31.199+02:00"/>
+<string key="Activity" value="string"/><string key="Resource" value="string"/>
+</global>
+<classifier name="Activity" keys="Activity"/>
+<classifier name="activity classifier" keys="Activity"/>
+<trace>
+<string key="concept:name" value="3"/>
+<string key="creator" value="GD"/>Ïúíþÿ—à@ùc<string key="concept:name" value="%s"/>
+<date key="time:timestamp" value="2021-12-30T14:34:00.000+01:00"/>
+<string key="Activity" value="%s"/>
+<string key="Resource" value="%s"/>
+</event>
+<string key="concept:name" value="3"/>
+@___sprintf_chk†™RãÃxþ¾Æ7©N!aMü,ß*:</log>
